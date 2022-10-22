@@ -2,8 +2,7 @@ package it.unibo.inheritance.test;
 
 import it.unibo.inheritance.api.AccountHolder;
 import it.unibo.inheritance.api.BankAccount;
-import it.unibo.inheritance.impl.SimpleBankAccount;
-import it.unibo.inheritance.impl.StrictBankAccount;
+import it.unibo.inheritance.impl.*;
 
 public class TestBankAccount {
     private static final int INTIAL_AMOUNT = 10000;
