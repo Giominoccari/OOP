@@ -16,6 +16,9 @@ public class RobotWithTwoArms extends BaseRobot implements RobotWithArms {
             arms[i] = new BaseArm();
         }
     }
+    public boolean isArmOn(int index){
+        return arms[index].isOn();
+    }
 
     public int getCarriedItemsCount(){
         return this.itemsCarried; 

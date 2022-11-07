@@ -8,9 +8,14 @@ public class BaseArm implements Arm {
     public static final double CONSUMPTION_FOR_DROPDOWN = 1.1;
 
     private boolean isGrabbing;
+    private boolean isOn;
 
     public BaseArm(){
         this.isGrabbing = false;
+    }
+
+    public boolean isOn(){
+        return isOn;
     }
 
     public boolean isGrabbing(){

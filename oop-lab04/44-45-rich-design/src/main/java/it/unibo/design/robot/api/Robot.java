@@ -36,10 +36,7 @@ public interface Robot {
      */
     boolean moveRight();
 
-    /**
-     * Fully recharge the robot
-     */
-    void recharge();
+    /*recharge*/
 
     /**
      * @return The robot's current battery level

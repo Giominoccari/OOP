@@ -12,11 +12,11 @@ public class BaseRobot implements Robot {
 
     public static final double BATTERY_FULL = 100;
     public static final double MOVEMENT_DELTA_CONSUMPTION = 1.2;
-    private static final int MOVEMENT_DELTA = 1;
+    protected static final int MOVEMENT_DELTA = 1;
 
-    private double batteryLevel;
-    private final RobotEnvironment environment;
-    private final String robotName;
+    protected double batteryLevel;
+    protected final RobotEnvironment environment;
+    protected final String robotName;
 
     /**
      * Creates a new robot with a full battery
@@ -143,11 +143,11 @@ public class BaseRobot implements Robot {
 
     /**
      * Fully recharge the robot
-     */
-    public void recharge() {
+     
+    protected void recharge() {
         this.batteryLevel = BATTERY_FULL;
     }
-
+*/
     public String toString() {
         return robotName;
     }

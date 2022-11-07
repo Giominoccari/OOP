@@ -15,8 +15,8 @@ public final class TestComposableRobot {
         final ComposableRobot r0 = new SimpleComposableRobot("Evangelion Unit 01");
         final RobotPart navi = new BorderNavigator();
         final RobotPart battery = new AtomicBattery();
-        final CommandableRobotPart arm1 = new RobotArm();
-        final CommandableRobotPart arm2 = new RobotArm();
+        final CommandableRobotPart arm1 = new BaseArm();
+        final CommandableRobotPart arm2 = new BaseArm();
          */
         /*
          * Component connection
