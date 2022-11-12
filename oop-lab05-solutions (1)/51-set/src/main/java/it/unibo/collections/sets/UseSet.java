@@ -1,13 +1,9 @@
 package it.unibo.collections.sets;
 
-import java.util.Set;
 import java.util.Collection;
-import java.util.List;
+import java.util.Set;
 import java.util.TreeSet;
 
-
-import static it.unibo.collections.test.Assertions.assertContentEqualsInAnyOrder;
-import static it.unibo.collections.test.Assertions.assertTrue;
 /**
  * Example class using {@link java.util.Set}.
  *
@@ -35,14 +31,13 @@ public final class UseSet {
          * 2) Populates such Collection with all the Strings representing numbers ranging from "1" to
          * "20" (both included)
          */
-        for(int i = 1; i <= 20; i++){
+        for (int i = 1; i <= ELEMS; i++) {
             set.add(Integer.toString(i));
         }
         /*
          * 3) Prints its content
          */
-        System.out.println(set);
-
+        System.out.println("Initial set: " + set); // NOPMD
         /*
          * 4) Removes all those strings whose represented number is divisible by three.
          * Note: the method removeIf(Predicate) is not allowed.
@@ -61,7 +56,7 @@ public final class UseSet {
             builder.append(element);
             builder.append(' ');
         }
-        System.out.println(builder);
+        System.out.println(builder); // NOPMD
         /*
          * 6) Verifies whether all the numbers left in the set are even
          */
