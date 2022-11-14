@@ -1,4 +1,4 @@
-# Esercizio con Git, in locale
+8# Esercizio con Git, in locale
 
 Per ogni passo,
 si annoti in questo file il comando utilizzato ed il suo output,
